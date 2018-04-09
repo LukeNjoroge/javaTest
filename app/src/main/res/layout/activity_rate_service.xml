@@ -1,0 +1,208 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tablerow0">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:paddingBottom="1dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="1dp"
+            android:textColor="@color/white" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#d55862" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="@string/booking_no"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="@string/service_date"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="@string/booking_service"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="@string/ser_rating"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>
+    </TableRow>
+
+    <!-- display this button in 3rd column via layout_column(zero based) -->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0a4b1" >
+
+        <TextView
+            android:id="@+id/etBookingNo1"
+            android:padding="5dp"
+            android:text="DF001"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:padding="5dp"
+            android:text="14/01/217"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:padding="5dp"
+            android:text="Braids"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/etRate1"
+            android:padding="5dp"
+            android:text="Rate"
+            android:textSize="16sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff" >
+
+        <TextView
+            android:id="@+id/etBookingNo2"
+            android:padding="5dp"
+            android:text="DF002"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:padding="5dp"
+            android:text="14/01/217"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:padding="5dp"
+            android:text="Braids"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/etRate2"
+            android:padding="5dp"
+            android:text="Rate"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0a4b1" >
+
+        <TextView
+            android:id="@+id/etBookingNo3"
+            android:padding="5dp"
+            android:text="DF003"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:padding="5dp"
+            android:text="14/01/217"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:padding="5dp"
+            android:text="Braids"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/etRate3"
+            android:padding="5dp"
+            android:text="Rate"
+            android:textSize="16sp" />
+
+    </TableRow>
+
+</TableLayout>
